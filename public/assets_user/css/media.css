@@ -1,0 +1,203 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 576px) {
+    .single-features-box {
+        height: 330px;
+    }
+    .pertanyaan::before {
+        height: 200px;
+        width: 260px;
+        transform: translate(-90%, -55%);
+    }
+    .gabung::before {
+        height: 260px;
+        width: 350px;
+        transform: translate(-50%, 35%);
+    }
+    .banner-item-image {
+        height: 300px;
+    }
+    .single-featured-box img {
+         width: 50px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .navbar-brand img {
+        width : 140px
+    }
+    .navbar-area .logo img {
+        width : 140px
+    }
+    .single-features-box {
+        height: 330px;
+    }
+    .pertanyaan::before {
+        height: 200px;
+        width: 260px;
+        transform: translate(-90%, -55%);
+    }
+    .gabung::before {
+        height: 260px;
+        width: 350px;
+        transform: translate(-50%, 35%);
+    }
+    .banner-item-image {
+        height: 300px;
+    }
+    .single-featured-box img {
+         width: 50px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0;
+        font-size: 16px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar-brand img {
+        width : 150px
+    }
+    .navbar-area .logo img {
+        width : 150px
+    }
+    .pertanyaan::before {
+        height: 250px;
+        width: 300px;
+        transform: translate(-90%, -55%);
+    }
+    .gabung::before {
+        height: 296px;
+        width: 350px;
+        transform: translate(-50%, 35%);
+    }
+    .banner-item-image {
+        height: 300px;
+    }
+    .single-featured-box img {
+         width: 50px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar-brand img {
+        width : 165px
+    }
+    .navbar-area .logo img {
+        width : 180px
+    }
+    .pertanyaan::before {
+        height: 300px;
+        width: 330px;
+        transform: translate(-30%, -60%);
+    }
+    .banner-item-image {
+        width: 500px;
+        height: 400px;
+    }
+    .single-featured-box img {
+        width: 70px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0.3rem;
+        font-size: 16px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-brand img {
+        width : 165px
+    }
+    .navbar-area .logo img {
+        width : 165px
+    }
+
+    .single-features-box {
+        height: 315px;
+    }
+
+    .pertanyaan::before {
+        height: 320px;
+        width: 350px;
+        transform: translate(-40%, -60%);
+    }
+    .banner-item-image {
+        height: 400px;
+    }
+    .single-featured-box img {
+        width: 70px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0.3rem;
+        font-size: 18px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .navbar-brand img {
+        width : 180px
+    }
+    .navbar-area .logo img {
+        width : 150px
+    }
+    .single-features-box {
+        height: 310px;
+    }
+    .banner-item-image {
+        margin-left: 20px;
+        width: 630px;
+        height: 400px;
+    }
+    .single-featured-box img {
+        width: 70px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0.3rem;
+        font-size: 18px;
+    }
+ }
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        width : 130px
+    }
+    .navbar-area .logo img {
+        width : 130px
+    }
+    .banner-item-image {
+        height: 300px;
+        width: 100%;
+    }
+    .single-featured-box img {
+         width: 50px;
+    }
+    .single-featured-box h3 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { ... } */
+
+/* // Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { ... } */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) { ... } */
